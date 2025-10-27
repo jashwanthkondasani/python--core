@@ -46,3 +46,10 @@ count=1
 while(count<=2):
       print("jai sri ram")
       count+=1
+
+# find power of number using recursion
+def power(n,p):
+        if p==0:
+                return 1
+        return n*power(n,p-1)
+print(power(11,22))
