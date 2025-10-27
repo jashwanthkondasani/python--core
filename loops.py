@@ -40,3 +40,9 @@ def fact(n):
         return 1
     return n*fact(n-1)
 print(fact(3))
+
+# print 5 times in a loop
+count=1
+while(count<=2):
+      print("jai sri ram")
+      count+=1
