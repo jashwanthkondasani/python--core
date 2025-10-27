@@ -33,3 +33,10 @@ print(a * 2)
 # Multi-dimensional array
 res = np.array([[1, 2], [3, 4]])
 print(res * 2)
+
+#  factorial using recursion
+def fact(n):
+    if n==0 :
+        return 1
+    return n*fact(n-1)
+print(fact(3))
