@@ -65,3 +65,4 @@ def prime(n,i=2):
             return True
       return prime(n,i+1)   
 print(prime(22))
+
