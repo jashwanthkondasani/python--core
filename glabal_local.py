@@ -42,3 +42,19 @@ def my_function():
 
 my_function()
 print(x)  # ❌ Error! x is not accessible outside
+
+count = 0   # global variable
+
+def increase_counter():
+    global count        # use the global variable
+    count += 1           # modify global variable
+    message = "Counter increased"   # local variable
+    print(message, "→ Current count:", count)
+
+def show_counter():
+    print("Global count is:", count)
+
+# Using the functions
+increase_counter()
+increase_counter()
+show_counter()
