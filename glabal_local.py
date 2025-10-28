@@ -23,3 +23,13 @@ def fun():
 s = "nani kondasani "
 fun()
 print("Outside Function: ", s)
+
+x = 99
+
+def change():
+    global x
+    x = x + 99
+    print("Inside function:", x)
+
+change()
+print("Outside function:", x)
