@@ -1,3 +1,4 @@
+
 def greet():
     msg="hello this is jashwanth kumar reddy"
     print(msg)
@@ -33,3 +34,11 @@ def change():
 
 change()
 print("Outside function:", x)
+
+# example to not writtem
+def my_function():
+    x = 10   # local variable
+    print("Inside function:", x)
+
+my_function()
+print(x)  # ❌ Error! x is not accessible outside
