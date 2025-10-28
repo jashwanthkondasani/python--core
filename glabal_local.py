@@ -15,3 +15,11 @@ def fun():
 msg="jashwanth kumar reddy"
 fun()
 print("outside",msg)
+
+def fun():
+    global s
+    s += "nani"
+    print(s)
+s = "nani kondasani "
+fun()
+print("Outside Function: ", s)
