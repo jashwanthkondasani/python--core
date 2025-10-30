@@ -66,3 +66,14 @@ def prime(n,i=2):
       return prime(n,i+1)   
 print(prime(22))
 
+a=float(input("enter the number "))
+b=float(input("enter the number "))
+c=float(input("enter the number"))
+ 
+if a==b==c:
+   print("equilateral triangle")
+elif a==b or b==c or c==a:
+  print("isosceles triangle")
+else:
+    print("scalene triangle")
+
