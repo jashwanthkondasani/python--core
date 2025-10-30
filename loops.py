@@ -77,3 +77,15 @@ elif a==b or b==c or c==a:
 else:
     print("scalene triangle")
 
+num = int(input("Enter a number: "))
+
+if num > 0:
+    print("Number is Positive")
+    if num % 2 == 0:
+        print("It is Even")
+    else:
+        print("It is Odd")
+elif num == 0:
+    print("Number is Zero")
+else:
+    print("Number is Negative")
