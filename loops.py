@@ -104,3 +104,39 @@ else:
         print("b is the largest")
     else:
         print("c is the largest")
+
+ programms by using loops 
+count=0
+while(count<3):
+    print("hello jashwanth kumar reddy")
+    count+=1
+
+for num in range(1, 10):
+    if num == 7:
+        break
+    print(num)
+
+
+for num in range(1, 10):
+    if num %2==0:
+        continue
+    print(num)
+
+ sum of numbers for using loops
+
+n = 11
+total = 0
+for i in range(1, n+1):
+    total += i
+print("Sum:", total)
+
+n=11
+total=0
+for i in range (1 ,n+1):
+      total=total+i
+print("sum:",total)
+
+rows=5
+for i in range(1, rows+1):
+  print('*'* i)
+
