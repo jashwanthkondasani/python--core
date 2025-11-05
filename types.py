@@ -32,3 +32,37 @@ print((s.upper ()))
 
  s = "My name is {} and I am {} years old.".format("jashwanth kondasani ", 22)
 print(s)
+
+
+ lists in python 
+j=[1,2,3,4,5]
+a=["nani","jash","sunil","nikhil"]
+s=[1,"jash",2.5,True]
+print(j)
+print(a)
+print(s)
+
+a = [2] * 10
+b = [0] * 6
+
+print(a)
+print(b)
+
+a = [10, 20, 30, 40, 50]
+print(a[0])    
+print(a[-1])
+print(a[1:4])   # elements from index 1 to 3
+
+a = []
+# append
+a.append(10)  
+print("After append(10):", a)  
+#  insert
+a.insert(0, 5)
+print("After insert(0, 5):", a) 
+#  extend 
+a.extend([15, 20, 25])  
+print("After extend([15, 20, 25]):", a) 
+#  clear 
+a.clear()
+print("After clear():", a)
