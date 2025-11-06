@@ -92,3 +92,31 @@ print("Initial queue:", queue)
 queue.pop()
 print("queue after pop():", queue)
 print("Top element is:", queue[-1]) 
+
+ -------------------------------------------dictionaries --------------------------------------------------
+                              
+ dictionaries in datastructures
+students = {
+    101: {"name": "Jashwanth", "age": 20, "marks": 85},
+    102: {"name": "Nikhil", "age": 21, "marks": 90},
+    103: {"name": "Shiva", "age": 19, "marks": 78}
+}
+
+# Display all student records 
+for roll, info in students.items():
+    print(f"Roll No: {roll}")
+    for key, value in info.items():
+        print(f"{key.capitalize()}: {value}")
+    print()
+
+Employee data structure using dictionary
+
+employees = {
+    "E001": {"name": "hema", "dept": "IT", "salary": 50000},
+    "E002": {"name": "bhavya", "dept": "HR", "salary": 45000},
+    "E003": {"name": "vindhya", "dept": "Finance", "salary": 55000}
+}
+
+# Accessing specific data
+emp_id = "E002"
+print(f"Employee {emp_id} details: {employees[emp_id]}")
