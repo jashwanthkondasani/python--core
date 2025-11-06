@@ -34,7 +34,7 @@ print((s.upper ()))
 print(s)
 
 
- lists in python 
+ # =--------------------------------------------lists in python ------------------------------------------------
 j=[1,2,3,4,5]
 a=["nani","jash","sunil","nikhil"]
 s=[1,"jash",2.5,True]
@@ -66,3 +66,27 @@ print("After extend([15, 20, 25]):", a)
 #  clear 
 a.clear()
 print("After clear():", a)
+
+#  tuples in datastructures 
+
+#  list using in stack in datastructures
+stack=[]
+stack.append('a')
+stack.append('b')
+stack.append('c')
+print("Initial stack:", stack)
+#  pop operation 
+stack.pop()
+print("Stack after pop():", stack)
+print("Top element is:", stack[-1]) 
+
+#  pop using in datastructures 
+queue=[]
+queue.append('a')
+queue.append('b')
+queue.append('c')
+print("Initial queue:", queue)
+#  pop operation 
+queue.pop()
+print("queue after pop():", queue)
+print("Top element is:", queue[-1]) 
