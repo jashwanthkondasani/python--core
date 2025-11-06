@@ -1,4 +1,4 @@
- srting by select strings \
+# ------------------------------------------strings in python------------------------------------------------------
 s="nani kondasani"
 print(s[0]) 
 
