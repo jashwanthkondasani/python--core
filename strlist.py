@@ -120,3 +120,23 @@ employees = {
 # Accessing specific data
 emp_id = "E002"
 print(f"Employee {emp_id} details: {employees[emp_id]}")
+ # -------------------------------------------setss ----------------------------------------------
+set1={1,2,3,4,5}
+print(set1)
+
+set2=set([6,7,8,9,10])
+print(set2)
+
+Creating a set
+set1 = {11,22,33}
+
+# Add one item
+set1.add(4)
+
+# Add multiple items
+set1.update([55,66,77])
+
+print(set1)
+
+a=[1,2,3,4,5["jashwanth", "nikhil"]]
+print(a)
