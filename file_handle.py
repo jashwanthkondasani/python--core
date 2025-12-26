@@ -9,3 +9,11 @@ try:
     print(num)
 except ValueError:
     print("Invalid input! Enter only numbers")
+try:
+    a = int(input("Enter a number: "))
+    b = int(input("Enter another number: "))
+    print(a / b)
+except ZeroDivisionError:
+    print("Division by zero error")
+except ValueError:
+    print("Invalid input type")
