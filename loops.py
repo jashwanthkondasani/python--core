@@ -139,4 +139,54 @@ print("sum:",total)
 rows=5
 for i in range(1, rows+1):
   print('*'* i)
+num1=float(input("Enter first number: "))
+num2=float(input("Enter second number: "))
+
+print(" choose an operator ")
+print(" + addition ")
+print(" - subtraction ")
+print(" * multiplication ")
+print(" / division ")
+
+op=input("enter operator (+,-,*,/)")
+
+if op=='+':
+   print("result:", num1+num2)
+
+elif op=='-':
+   print("result:", num1-num2)
+
+elif op=='*':
+   print("result:", num1*num2)
+
+elif op=='/':
+   if num2 !=0:
+       print("result:", num1/num2)
+   else:
+       print("Error: Division by zero is not allowed.")
+else:
+   print("Invalid operator")
+
+ using  functions 
+def calculator(a,b,op):
+     if op=='+':
+         return a+b
+     elif op=='-':
+         return a-b
+     elif op=='*':
+         return a*b
+     elif op=='/':
+         if b !=0:
+             return a/b
+         else:
+             return "Error: Division by zero is not allowed."
+     else:
+         return "Invalid operator"
+     
+ print(calculator(10,5,'+'))
+ print(calculator(10,5,'-'))
+ print(calculator(10,5,'*'))
+ print(calculator(10,5,'/'))
+ print(calculator(10,0,'/'))
+ print(calculator(10,5,'^'))
 
